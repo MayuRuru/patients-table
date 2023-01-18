@@ -1,0 +1,15 @@
+@import url(patientsTable.css);
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+@font-face {
+  font-family: text;
+  src: url("../fonts/BebasNeue.ttf");
+}

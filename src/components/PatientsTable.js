@@ -5,7 +5,7 @@ import "../assets/styles/patientsTable.css";
 
 const PatientsTable = () => {
   const [patients, setPatients] = useState([]);
-  const columns = ["id", "age", "sex", "diagnosis"];
+  const columns = ["id", "Age", "Sex", "Diagnosis"];
 
   useEffect(() => {
     const url = "http://localhost:8000/patients";
