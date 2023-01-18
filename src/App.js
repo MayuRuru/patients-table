@@ -3,8 +3,7 @@ import "../src/assets/styles/app.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header" />
+    <div className="table-container">
       <h1>A patients table</h1>
       <PatientsTable />
     </div>
