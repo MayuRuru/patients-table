@@ -1,4 +1,3 @@
-import "../assets/styles/patientsTable.css";
 import SearchIcon from "@rsuite/icons/Search";
 import { IconButton } from "rsuite";
 

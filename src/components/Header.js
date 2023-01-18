@@ -1,5 +1,3 @@
-import "../assets/styles/patientsTable.css";
-
 export const Header = ({ columns }) => {
   return (
     <thead>

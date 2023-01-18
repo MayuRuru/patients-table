@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import { Header } from "./Header";
 import { InnerTable } from "./InnerTable";
-import "../assets/styles/patientsTable.css";
 
 const PatientsTable = () => {
   const [patients, setPatients] = useState([]);
