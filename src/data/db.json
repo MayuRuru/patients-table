@@ -1,0 +1,40 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "age": 23,
+      "sex": "W",
+      "diagnosis": "Leukemia"
+    },
+    {
+      "id": 2,
+      "age": 53,
+      "sex": "M",
+      "diagnosis": "Lung cancer"
+    },
+    {
+      "id": 3,
+      "age": 37,
+      "sex": "W",
+      "diagnosis": "Ovarian cancer"
+    },
+    {
+      "id": 4,
+      "age": 90,
+      "sex": "M",
+      "diagnosis": "Bone marrow"
+    },
+    {
+      "id": 5,
+      "age": 49,
+      "sex": "W",
+      "diagnosis": "Melanoma"
+    },
+    {
+      "id": 6,
+      "age": 2,
+      "sex": "M",
+      "diagnosis": "Leigh syndrome"
+    }
+  ]
+}
