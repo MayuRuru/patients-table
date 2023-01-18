@@ -1,31 +1,6 @@
 import { useEffect, useState } from "react";
-
-const Header = ({ columns }) => {
-  return (
-    <thead>
-      <tr>
-        {columns.map((column) => (
-          <th key={column}>{column}</th>
-        ))}
-      </tr>
-    </thead>
-  );
-};
-
-const InnerTable = ({ columns, entries }) => {
-  return (
-    <tbody>
-      {entries.map((entry) => (
-        <tr key={entry.id}>
-          {columns.map((column) => (
-            <td key={column}>{entry[column]}</td>
-          ))}
-          <button onClick={() => {}}>{"More info"}</button>
-        </tr>
-      ))}
-    </tbody>
-  );
-};
+import { Header } from "./Header";
+import { InnerTable } from "./InnerTable";
 
 const PatientsTable = () => {
   const [patients, setPatients] = useState([]);
