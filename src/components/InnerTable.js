@@ -1,12 +1,20 @@
+import "../assets/styles/patientsTable.css";
+import SearchIcon from "@rsuite/icons/Search";
+import { IconButton } from "rsuite";
+
 export const InnerTable = ({ columns, entries }) => {
   return (
     <tbody>
       {entries.map((entry) => (
         <tr key={entry.id}>
           {columns.map((column) => (
-            <td key={column}>{entry[column]}</td>
+            <td key={column} className="table-cell">
+              {entry[column]}
+            </td>
           ))}
-          <button onClick={() => {}}>{"More info"}</button>
+          <td className="table-cell">
+            <IconButton size="lg" icon={<SearchIcon />} />
+          </td>
         </tr>
       ))}
     </tbody>

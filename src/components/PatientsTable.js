@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
 import { Header } from "./Header";
 import { InnerTable } from "./InnerTable";
+import "../assets/styles/patientsTable.css";
 
 const PatientsTable = () => {
   const [patients, setPatients] = useState([]);
-  const columns = ["id", "age", "sex", "diagnosis", "more info"];
+  const columns = ["id", "age", "sex", "diagnosis"];
 
   useEffect(() => {
     const url = "http://localhost:8000/patients";
@@ -16,7 +17,7 @@ const PatientsTable = () => {
   }, []);
   return (
     <div>
-      <table>
+      <table className="table">
         <Header columns={columns} />
         <InnerTable columns={columns} entries={patients} />
       </table>
