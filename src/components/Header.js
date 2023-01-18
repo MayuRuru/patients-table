@@ -3,11 +3,8 @@ export const Header = ({ columns }) => {
     <thead>
       <tr>
         {columns.map((column) => (
-          <th key={column} className="table-cell">
-            {column}
-          </th>
+          <th key={column}>{column}</th>
         ))}
-        <th className="table-cell">{"More info"}</th>
       </tr>
     </thead>
   );

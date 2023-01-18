@@ -4,7 +4,7 @@ import { InnerTable } from "./InnerTable";
 
 const PatientsTable = () => {
   const [patients, setPatients] = useState([]);
-  const columns = ["id", "Age", "Sex", "Diagnosis"];
+  const columns = ["id", "Age", "Sex", "Diagnosis", "More info"];
 
   useEffect(() => {
     const url = "http://localhost:8000/patients";

@@ -10,6 +10,11 @@ html {
 }
 
 @font-face {
-  font-family: text;
+  font-family: title;
   src: url("../fonts/BebasNeue.ttf");
+}
+
+@font-face {
+  font-family: text;
+  src: url("../fonts/CafeLight.ttf");
 }

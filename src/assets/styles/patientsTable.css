@@ -1,16 +1,33 @@
-.table {
+table {
   table-layout: fixed;
-  width: 70%;
+  width: 100%;
   border-collapse: collapse;
   font-family: text;
+  background-color: rgb(249, 247, 245);
 }
 
-.table-cell {
+td,
+th {
   border: 1px solid;
   text-align: left;
   padding: 1em;
 }
 
+th,
 h1 {
-  font-family: text;
+  font-family: title;
+  position: sticky;
+  z-index: 100;
+}
+
+.table-container {
+  margin: 0 auto;
+  margin-top: 3em;
+  border-radius: 1em;
+  max-width: 38em;
+  padding: 1em;
+  background: rgb(237, 237, 237);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+    0 8px 16px rgba(0, 0, 0, 0.11);
 }
